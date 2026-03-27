@@ -161,7 +161,7 @@ def get_response(user_query, chat_history):
     prompt = ChatPromptTemplate.from_template(template)
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
+        model="gemini-3-flash-preview",
         temperature=0,
         max_tokens=None,
         timeout=None,
